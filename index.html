@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css " />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter City Name"
+          spellcheck="false"
+        />
+        <button><img src="images/search.png" alt="" /></button>
+      </div>
+
+      <div class="error">
+        <p>Invalid City Name.</p>
+      </div>
+
+      <div class="weather">
+        <img class="weather-icon" src="images/rain.png" alt="" />
+
+        <h1 class="temp">22c</h1>
+        <h2 class="city">Bihar</h2>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" alt="" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="images/wind.png" alt="" />
+            <div>
+              <p class="WindSpeed">15 km/h</p>
+              <p>Wind</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- https://api.openweathermap.org/data/2.5/weather?q=india&appid=6d605377cc34dd72b3d0bfbed8f0fcff
+
+https://api.openweathermap.org/data/2.5/weather?q=germany&appid=6d605377cc34dd72b3d0bfbed8f0fcff&units=metric -->
