@@ -1,1 +1,2 @@
-It uses OpenWeatherMap API
+It uses OpenWeatherMap API.
+Built using javascript css and HTML.
